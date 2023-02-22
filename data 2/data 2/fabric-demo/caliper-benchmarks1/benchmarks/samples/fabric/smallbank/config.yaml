@@ -1,0 +1,25 @@
+test:
+  workers:
+    number: 4
+  rounds:
+    - label: load.
+      txNumber: 10000
+      rateControl:
+          type: fixed-rate
+          opts:
+            tps: 500
+      workload:
+        module: benchmarks/samples/fabric/smallbank/load.js
+        arguments:
+          txnPerBatch: 1
+    - label: mixed.
+      txNumber: 10000
+      rateControl:
+          type: fixed-rate
+          opts:
+            tps: 200
+      workload:
+        module: benchmarks/samples/fabric/smallbank/mixed.js
+        arguments:
+          queryRatio: 0.1
+          txnPerBatch: 1

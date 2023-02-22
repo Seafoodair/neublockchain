@@ -1,0 +1,27 @@
+{
+   "blockchain": {
+        "type": "fabric"
+  },
+  "contracts": [{"id": "smallbank"}],
+  "test": {
+    "name": "smallbank",
+    "description" : "This is smallbank benchmark for caliper",
+    "clients": {
+      "type": "local",
+      "number": 4
+    },
+    "rounds": [
+      {
+        "label" : "load",
+        "txNumber" : [10240],
+        "rateControl" : [{"type": "fixed-rate", "opts": {"tps" : 512}}],
+        "arguments": {"txnPerBatch":1},
+        "callback" : "benchmark/smallbank/load.js"
+      }
+    ]
+  },
+  "command" : {
+    "start": "sleep 5",
+    "end" : " sleep 5"
+  }
+}

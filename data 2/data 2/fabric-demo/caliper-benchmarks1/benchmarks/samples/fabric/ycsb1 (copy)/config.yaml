@@ -1,0 +1,14 @@
+test:
+  workers:
+    number: 5
+  rounds:
+    - label: Upper value.
+      txDuration: 30
+      rateControl:
+          type: fixed-load
+          opts:
+            transactionLoad: 5
+      workload:
+        module: benchmarks/samples/fabric/ycsb/upper.js
+        arguments:
+          assets: 500

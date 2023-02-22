@@ -1,0 +1,5 @@
+sut:
+  fabric:
+    2.2.14: &fabric-v2-lts
+      packages: ['fabric-network@2.2.14']
+    2.2: *fabric-v2-lts

@@ -1,0 +1,35 @@
+test:
+  workers:
+    number: 5
+  rounds:
+    - label: insert.
+      txNumber: 6000
+      rateControl:
+          type: fixed-rate
+          opts:
+            tps: 600
+      workload:
+        module: benchmarks/samples/fabric/ycsb/insert.js
+        arguments:
+          txnPerBatch: 1
+          fieldCount: 10
+          fieldLength: 10
+    - label: txn.
+      txNumber: 4000
+      rateControl:
+          type: fixed-rate
+          opts:
+            tps: 600
+      workload:
+        module: benchmarks/samples/fabric/ycsb/txn.js
+        arguments:
+          txnPerBatch: 1
+          distribution: "zipf"
+          zipf_s: 0.99
+          recordCount: 6000
+          readRatio: 0.0
+          lqueryRatio: 0.5
+          updateRatio: 0.0
+          insertRatio: 0.0
+          deleteRatio: 0.0
+          modifyRatio: 0.5
