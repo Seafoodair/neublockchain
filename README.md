@@ -42,6 +42,7 @@ Fabric2.x版本，
 4延迟高：是因为ENDORSEMENT_POLICY_FAILURE 原因造成的。
 请求超时，4的时候。
 5 台exceeding concurrency limit (2500)
+## 并发分析
 ## 安全性分析
 ## 峰值吞吐量和延迟
 REQ-5000，100w，load，219.5tps，平均延迟0.23s,no-ops.  Smallbank(偏移律，代码有问题，利用大数定律保证偏斜率。)
