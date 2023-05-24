@@ -43,6 +43,9 @@ Fabric2.x版本，
 请求超时，4的时候。
 5 台exceeding concurrency limit (2500)
 ## 并发分析
+### 区块的大小
+只需要重新生成创世块和通道和通道中的锚节点。
+``configtxgen -profile TwoOrgsOrdererGenesis -channelID nomychannel -outputBlock ./channel-artifacts/genesis.block``
 ## 安全性分析
 ## 峰值吞吐量和延迟
 REQ-5000，100w，load，219.5tps，平均延迟0.23s,no-ops.  Smallbank(偏移律，代码有问题，利用大数定律保证偏斜率。)
