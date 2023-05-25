@@ -52,7 +52,7 @@ Fabric2.x版本，
 | 150 | 395.4/370.02 | 0.25s | 16.23% | 443M | 350,0.36s |
 |200| 409.1/389.5 | 0.24s | 22.08 | 439M | 360.4,0.34s |
 |250| 406.5/391.7| 0.25s | 21.46 | 439M | 342.8,0.33s |
-|300| 406.5/391.7| 0.25s | 21.46 | 439M | 342.8,0.33s |
+|300| 408.8/399.2| 0.24s | 17.75| 439M | 342.8,0.33s |
 ### 区块的大小
 只需要重新生成创世块和通道和通道中的锚节点。
 ``configtxgen -profile TwoOrgsOrdererGenesis -channelID nomychannel -outputBlock ./channel-artifacts/genesis.block
