@@ -82,6 +82,8 @@ configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts
 ## 安全性分析
 有无tls的吞吐量
 0.17s   
+![image](https://github.com/Seafoodair/neublockchain/assets/51044388/4adcadbf-6476-4cc4-8c26-6db9adcc094d)
+
 ## 峰值吞吐量和延迟
 REQ-5000，100w，load，219.5tps，平均延迟0.23s,no-ops.  Smallbank(偏移律，代码有问题，利用大数定律保证偏斜率。)
 mixed. 232.8tps，延迟0.21s.   
