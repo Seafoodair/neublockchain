@@ -86,6 +86,8 @@ configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts
 ![image](https://github.com/Seafoodair/neublockchain/assets/51044388/23924857-053c-4945-9beb-cf94b8a5f0ea)
 ![image](https://github.com/Seafoodair/neublockchain/assets/51044388/22f2c12c-6092-4041-b54e-94912de166af)
 ![image](https://github.com/Seafoodair/neublockchain/assets/51044388/f08cfd07-63a0-49ab-ab6a-6f92a8c3f363)
+![image](https://github.com/Seafoodair/neublockchain/assets/51044388/033be786-2709-4f77-b65c-93c948e68d9c)
+![image](https://github.com/Seafoodair/neublockchain/assets/51044388/189dfe59-09a7-45ea-be70-627979cb2ec5)
 
 
 
