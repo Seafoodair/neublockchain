@@ -88,7 +88,7 @@ configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts
 ![image](https://github.com/Seafoodair/neublockchain/assets/51044388/f08cfd07-63a0-49ab-ab6a-6f92a8c3f363)
 ![image](https://github.com/Seafoodair/neublockchain/assets/51044388/033be786-2709-4f77-b65c-93c948e68d9c)
 ![image](https://github.com/Seafoodair/neublockchain/assets/51044388/189dfe59-09a7-45ea-be70-627979cb2ec5)
-
+23.32%
 
 
 ## 峰值吞吐量和延迟
