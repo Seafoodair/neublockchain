@@ -118,3 +118,9 @@ ECDSA 和 RSA 和HSM 对性能的影响。
 | 内存使用率98.8 | 1.56G | 1.55G | 1.55G | 1.55G | 1.55G |
 load 346.5、0.42s|185.5，0.19s  | 191.5，0.20s| 189.9，0.20s | 185.8,0.19s | 189.1、0.19s |
 mixed 395.1/377.2、0.45s| 223.4,0.15s | 268.6,0.10s  | 331.1，0.06s | 195.2,0.21s | 753.7、0.01s |
+ping peer1.org1.example.com   结果：
+--- orderer.example.com ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 1022715ms
+rtt min/avg/max/mdev = 0.173/0.260/3.193/0.115 ms
+
+网络丢包率影响比较低（基本无影响）。
