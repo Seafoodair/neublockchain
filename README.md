@@ -124,3 +124,7 @@ ping peer1.org1.example.com   结果：
 rtt min/avg/max/mdev = 0.173/0.260/3.193/0.115 ms
 
 网络丢包率影响比较低（基本无影响）。
+--- peer1.org1.example.com ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 1022370ms
+rtt min/avg/max/mdev = 0.207/0.320/13.373/0.590 ms
+
