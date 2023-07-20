@@ -143,3 +143,5 @@ rtt min/avg/max/mdev = 0.197/0.263/5.235/0.212 ms
 1000 packets transmitted, 1000 received, 0% packet loss, time 1022451ms
 rtt min/avg/max/mdev = 0.194/0.278/1.567/0.155 ms
 
+smallbank事务不设置冲突但是，还是吞吐量很低。284.33 tps   3.67s  
+出现了大多事务是背书策略不满足。
