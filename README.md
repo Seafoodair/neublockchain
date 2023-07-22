@@ -148,3 +148,6 @@ smallbank事务不设置冲突但是，还是吞吐量很低。284.33 tps   3.67
 1004.4 tps  avg0.18  21.85%
 ## 一致性 
 solo 
+## caliper 可能存在瓶颈
+![image](https://github.com/Seafoodair/neublockchain/assets/51044388/e7209e10-2d4c-4285-ba7c-08f4052f2744)
+
