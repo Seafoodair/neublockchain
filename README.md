@@ -146,6 +146,10 @@ rtt min/avg/max/mdev = 0.194/0.278/1.567/0.155 ms
 smallbank事务不设置冲突但是，还是吞吐量很低。284.33 tps   3.67s  
 出现了大多事务是背书策略不满足。
 1004.4 tps  avg0.18  21.85%
+## peer节点的可扩展性
+单个caliper测试结果如下：
+![image](https://github.com/Seafoodair/neublockchain/assets/51044388/f47f9e73-a899-43b1-aa41-6bd710ada83a)
+吞吐量为227 延迟为0.13s  orderer 20.62%   一个组织
 ## 一致性 
 solo 
 ## caliper 可能存在瓶颈
